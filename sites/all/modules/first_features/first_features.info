@@ -1,0 +1,14 @@
+name = First features
+description = Une peite description de la modif
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = text
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_instance][] = node-customtype-body
+features[node][] = customtype
+features[views_view][] = custumview
+features_exclude[dependencies][ctools] = ctools
